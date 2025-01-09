@@ -2,3 +2,9 @@ git add . --> add all file
 git commit -m "First commit"
 git reset HEAD --hard --> add file not commit you can revert the previous code.
 git reset HEAD~1 --hard --> you can revert the code after add . and commit.
+git branch b1 --> crate new branch b1
+git checkout b1 --> enter new branch b1
+git checkout master than git merge b1 --> All b1 commited file merge into master
+git push origin master --> push master branch into github
+git push origin b1 --> push b1 branch into github
+git pull origin master --> pull origin master from github (if no change in github:: Already up to date, otherwise Updating .... and you will got all file including new add file)
