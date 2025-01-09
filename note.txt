@@ -1,0 +1,4 @@
+git add . --> add all file
+git commit -m "First commit"
+git reset HEAD --hard --> add file not commit you can revert the previous code.
+git reset HEAD~1 --hard --> you can revert the code after add . and commit.
